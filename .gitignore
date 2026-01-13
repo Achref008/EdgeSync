@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+
+# Data / datasets
+data/
+*.pth
+*.pt
+*.npz
+*.npy
+*.csv
+*.png
+
+# Logs
+*.log
+logs/
+checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (IMPORTANT)
+gspread_key.json
+*.key
+*.pem
