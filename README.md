@@ -33,5 +33,5 @@ python main.py
 cd ../akida_nodes
 python main.py
 
-![Accuracy](Images/Real image of the Testbed.PNG)
+![Accuracy]([Images/Real image of the Testbed.PNG](https://github.com/Achref008/StreamingAI-Prototype/blob/main/Images/Real%20image%20of%20the%20Testbed.PNG))
 
