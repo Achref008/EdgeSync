@@ -27,8 +27,8 @@ pip install -r requirements.txt
 
 # Run a Jetson node
 cd jetson_nodes
-python JetsonMain.py
+python main.py
 
-#  Run an Akida node
-cd ../akida_node
-python akidamain.py
+# Run the Akida node
+cd ../akida_nodes
+python main.py
