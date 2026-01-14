@@ -33,5 +33,6 @@ python main.py
 cd ../akida_nodes
 python main.py
 
-![Testbed](https://github.com/Achref008/StreamingAI-Prototype/blob/main/Images/Real%20image%20of%20the%20Testbed.PNG) ![Testbed] (https://github.com/Achref008/StreamingAI-Prototype/blob/main/Images/Diagram%20of%20the%20Testbed.PNG) 
+![Testbed](https://github.com/Achref008/StreamingAI-Prototype/blob/main/Images/Real%20image%20of%20the%20Testbed.PNG)  
+![Testbed2](https://github.com/Achref008/StreamingAI-Prototype/blob/main/Images/Diagram%20of%20the%20Testbed.PNG) 
 
