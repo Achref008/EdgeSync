@@ -39,7 +39,7 @@ Lower β converges faster initially but shows higher variance, while higher β (
 
 ![Loss NonIID](https://github.com/Achref008/StreamingAI-Prototype/blob/main/Images/loss.PNG) 
 
-Training loss evolution under heterogeneous non-IID data distribution across CNN and neuromorphic nodes.
+The raining loss evolution under heterogeneous non-IID data distribution across CNN and neuromorphic nodes is shown in this figure.
 
 **Parameters:**
 - Dataset: CIFAR-10
