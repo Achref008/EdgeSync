@@ -66,7 +66,6 @@ All nodes **predict images locally** and **collaborate by sharing parameter upda
 
 ## Repository structure
 
-```text
 StreamingAI-Prototype/
 │
 ├── jetson_nodes/
