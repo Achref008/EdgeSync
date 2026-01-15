@@ -10,9 +10,9 @@ Each node trains on its own local image data and periodically **exchanges raw mo
 
 ---
 
-## Why?
+## Why this project?
 
-AI edge devices deployments often face:
+Real-world edge AI deployments often face:
 
 - Distributed devices with **private or local-only data**
 - **Unstable networks** (timeouts, dropouts, intermittent connectivity)
@@ -22,7 +22,7 @@ This project demonstrates how decentralized, peer-to-peer learning can continue 
 
 ---
 
-## How it works?
+## How it works (one learning loop)
 
 Each node repeatedly executes the following steps:
 
@@ -91,41 +91,35 @@ StreamingAI-Prototype/
 │   Testbed photos and system diagrams
 │
 └── README.md
+```
 
 ---
 
 ## Target Devices
--  NVIDIA Jetson Nano/Xavier/Orin (PyTorch-compatible)
+- NVIDIA Jetson Nano/Xavier/Orin (PyTorch-compatible)
 - BrainChip Akida neuromorphic boards (via projected SNN/CNN)
 - Simulated CPU nodes for rapid testing
-
----
 
 ## Structure
 - `jetson_nodes/`: CNN models, projection, and comms for Jetson
 - `akida_nodes/`: Placeholder for Akida integration
 - `docs/`: Contains device compatibility explanation (PDF)
 
----
-
 ## Getting Started
+```bash
 git clone https://github.com/Achref008/StreamingAI-Prototype.git
 cd StreamingAI-Prototype
 
 pip install -r requirements.txt
 
----
-
 # Run a Jetson node
 cd jetson_nodes
 python main.py
 
----
-
 # Run the Akida node
 cd ../akida_nodes
 python main.py
+```
 
-![Testbed](https://github.com/Achref008/StreamingAI-Prototype/blob/main/Images/Real%20image%20of%20the%20Testbed.PNG)  
-![Testbed2](https://github.com/Achref008/StreamingAI-Prototype/blob/main/Images/Diagram%20of%20the%20Testbed.PNG) 
-
+![Testbed](https://github.com/Achref008/StreamingAI-Prototype/blob/main/Images/Real%20image%20of%20the%20Testbed.PNG?raw=true)  
+![Testbed2](https://github.com/Achref008/StreamingAI-Prototype/blob/main/Images/Diagram%20of%20the%20Testbed.PNG?raw=true)
